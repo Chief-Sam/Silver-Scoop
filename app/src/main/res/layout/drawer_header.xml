@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#1976d2"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgViewCurrentUser"
+        android:layout_width="80dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_user">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/txtViewcurrentUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="8dp"
+        android:text="Shubham Chauhan"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtViewMobileNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp"
+        android:text="+91 9876543210"
+        android:textColor="@color/white"
+        android:textSize="18sp">
+
+    </TextView>
+
+
+</LinearLayout>
